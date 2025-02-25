@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+  </head>
+  <body class="dark-mode">
+    <header>
+      <nav>
+        <div class="left-nav">
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            >HTML5</a
+          >
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            >JavaScript</a
+          >
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+        </div>
+        <div class="right-nav">
+          <button data-bs-theme-value="dark" id="dark-mode">Dark</button>
+          <button data-bs-theme-value="light" id="light-mode">Light</button>
+          <button>Contact Me</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="grid-container">
+        <div class="left-col">
+          <p>
+            Factorial calculator.<br />n! = 1×2×3 ... ×n.<br />e.g. 5! = 120.
+          </p>
+        </div>
+        <div class="right-col">
+          <input
+            type="number"
+            id="factorial-input"
+            placeholder="Enter a number"
+            class="input-box"
+          />
+        </div>
+        <div class="left-col">
+          <button id="calculate">Enter</button>
+        </div>
+        <div class="right-col screen" id="result-screen"></div>
+      </div>
+    </main>
+    <footer>
+      <p>Simple factorial calculator &copy; 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
